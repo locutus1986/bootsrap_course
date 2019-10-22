@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b62eb596a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/animate.min.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -31,43 +32,480 @@
     </nav>
 
     <!-- header -->
-        <section id="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="img-fluid" src="img/logo.png" alt="">
-                        <h2>THINGS WORK BETTER IN SPACE</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet rutrum sapien ac lobortis. Morbi vulputate ex mi, eget fringilla lacus scelerisque a. Vestibulum quis velit congue, tempus ligula et</p>
-                        <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet rutrum sapien ac lobortis. Morbi vulputate ex mi, eget fringilla lacus scelerisque a. Vestibulum quis velit congue, tempus ligula et</p>
-                    </div>
-                    <div class="col-md-6 header-right d-none d-md-block">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet rutrum sapien ac lobortis. Morbi vulputate ex mi, eget fringilla lacus scelerisque a. Vestibulum quis velit congue, tempus ligula et</p>
-                        <form >
-                            <fieldset class="form-group">
-                                <label class="sr-only">name</label>
-                                <input type="text" class="form-control" placeholder="your name">
-                            </fieldset>
-                            <fieldset class="form-group">
-                                <label class="sr-only">email</label>
-                                <input type="email" class="form-control" placeholder="your email">
-                            </fieldset>
-                            <button class="btn btn-outline-info btn-block" type='submit'>sign up</button>
-                        </form>
+    <section id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="2s">
+                    <img class="img-fluid" src="img/logo.png" alt="">
+                    <h2>THINGS WORK BETTER IN SPACE</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet rutrum sapien ac lobortis. Morbi vulputate ex mi, eget fringilla lacus scelerisque a. Vestibulum quis velit congue, tempus ligula et</p>
+                    <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet rutrum sapien ac lobortis. Morbi vulputate ex mi, eget fringilla lacus scelerisque a. Vestibulum quis velit congue, tempus ligula et</p>
+                </div>
+                <div class="col-md-6 header-right d-none d-md-block">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet rutrum sapien ac lobortis. Morbi vulputate ex mi, eget fringilla lacus scelerisque a. Vestibulum quis velit congue, tempus ligula et</p>
+                    <form >
+                        <fieldset class="form-group">
+                            <label class="sr-only">name</label>
+                            <input type="text" class="form-control" placeholder="your name">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <label class="sr-only">email</label>
+                            <input type="email" class="form-control" placeholder="your email">
+                        </fieldset>
+                        <button class="btn btn-outline-info btn-block" type='submit'>sign up</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <a href="#socail"><i class="fas fa-chevron-down fa-3x"></i></a> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end header -->
+    
+    <!-- social -->
+
+    <section id="social">
+        <div class="container wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1s">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Connect with us:</h2>
+                    <hr>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend sem nec enim
+                            accumsan, at egestas dolor dapibus. Nullam ullamcorper congue malesuada. 
+                    </p>
+                </div>
+                <div class="col md-6">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fas fa-rss"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end social -->
+    
+    <!-- who -->
+
+    <section id="who">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <h2>Who we are...</h2>
+                    <hr>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ultrices orci. 
+                    </p>
+                    <p>
+                        Nam pellentesque purus metus, a scelerisque lorem imperdiet vitae. Nullam aliquet nunc 
+                        sodales rutrum lacinia. Nullam et molestie leo, in sagittis justo. Cras dolor metus, 
+                        fringilla vel molestie blandit, mattis nec dui. Phasellus massa lorem, placerat sit 
+                        amet semper quis, vestibulum at augue.
+                    </p>
+                    <button type="button" class="btn btn-who">Find out more</button>
+                </div>
+                <div class="col-md-6 wow fadeInRight" data-wow-delay="0.5s" data-wow-duration="1s">
+                    <img src="img/what-image.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end who -->
+
+    <!-- work -->
+
+    <section id="work">
+        <div class="container">
+            <div class="row">
+                <div class="col wow fadeInUp">
+                    <h2>latest work...</h2>
+                    <hr>
+                    <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper nisi nisi, a vulputate magna tempus et.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="card">
+                        <div class="work-img">
+                            <a href="#"> 
+                                <img src="img/buildings.jpg" class="img-fluid card-img-top" alt="Card image cap">
+                                <div class="img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col text-center">
-                        <a href="#socail"><i class="fas fa-chevron-down fa-3x"></i></a> 
+                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="card">
+                        <div class="work-img">
+                            <a href="#"> 
+                                <img src="img/fair.jpg" class="img-fluid card-img-top" alt="Card image cap">
+                                <div class="img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="card">
+                        <div class="work-img">
+                            <a href="#"> 
+                                <img src="img/city.jpg" class="img-fluid card-img-top" alt="Card image cap">
+                                <div class="img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="card">
+                        <div class="work-img">
+                            <a href="#"> 
+                                <img src="img/rose.jpg" class="img-fluid card-img-top" alt="Card image cap">
+                                <div class="img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-    <!-- end header -->
+            <div class="row">
+                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="card">
+                        <div class="work-img">
+                            <a href="#"> 
+                                <img src="img/skate.jpg" class="img-fluid card-img-top" alt="Card image cap">
+                                <div class="img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="card">
+                            <div class="work-img">
+                                <a href="#"> 
+                                    <img src="img/track.jpg" class="img-fluid card-img-top" alt="Card image cap">
+                                    <div class="img-overlay"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="card">
+                        <div class="work-img">
+                            <a href="#"> 
+                                <img src="img/goldengate.jpg" class="img-fluid card-img-top" alt="Card image cap">
+                                <div class="img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.8s">
+                    <div class="card">
+                        <div class="work-img">
+                            <a href="#"> 
+                                <img src="img/girl-field.jpg" class="img-fluid card-img-top" alt="Card image cap">
+                                <div class="img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end work -->
+
+    <!-- why -->
+
+    <section id="why">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col wow fadeIn">
+                    <h2>Why you should work with us?</h2>
+                    <hr>
+                    <p>
+                        Because we are the best at what we do.
+                        pricing
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                    <i class="far fa-thumbs-up fa-3x"></i>
+                    <h3>Customer Satisfaction</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper nisi nisi, a vulputate magna tempus et.
+                    </p>
+                </div>
+                <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
+                    <i class="fas fa-chart-line fa-3x"></i>
+                    <h3>Instant Results</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper nisi nisi, a vulputate magna tempus et.
+                    </p>
+                </div>
+                <div class="col-md-4 wow fadeIn" data-wow-delay="0.4s">
+                    <i class="fas fa-trophy fa-3x"></i>
+                    <h3>Award Winner Service</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper nisi nisi, a vulputate magna tempus et.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end why -->
+
+    <!-- customers -->
+    <section id="customers">
+        <div class="container text-center wow fadeInUp" data-wow-delay="0.3s">
+            <div class="row">
+                <div class="col">
+                    <h2>Customers</h2>
+                    <hr>
+                    <p>
+                        Read what some of our customers have to say about our service.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="quotes" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="quotes" data-slide-to="0" class="active"></li>
+                            <li data-target="quotes" data-slide-to="1"></li>
+                            <li data-target="quotes" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">Slide 1. Integer posuere erat a ante.</p>
+                                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </blockquote>
+                            </div>
+                            <div class="carousel-item">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">Slide 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </blockquote>
+                            </div>
+                            <div class="carousel-item">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">Slide 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- end customers -->
+
+    <!-- pricing -->
+
+    <section id="pricing">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h2>pricing</h2>
+                    <hr>
+                    <p>Pricing for our services can not be beaten.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="card">
+                        <div class="card-header">Basic</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>2</strong> profiles</li>
+                            <li class="list-group-item"><strong>$0</strong> /month</li>
+                            <li class="list-group-item"><strong>1GB</strong> storage</li>
+                            <li class="list-group-item"><strong>10GB</strong> bandwidth</li>
+                            <li class="list-group-item"><strong>1</strong> FTP account</li>
+                            <li class="list-group-item"><strong>Website</strong> integration</li>
+                            <li class="list-group-item"><strong>Basic</strong> customisation</li>
+                            <li class="list-group-item"><strong>Email</strong> support</li>
+                        </ul>
+                        <div class="card-body">
+                            <button class="btn btn-outline-info btn-block">Sign-Up</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="card">
+                        <div class="card-header standard">Standard</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>100</strong> profiles</li>
+                            <li class="list-group-item"><strong>$29</strong> /month</li>
+                            <li class="list-group-item"><strong>50GB</strong> storage</li>
+                            <li class="list-group-item"><strong>50GB</strong> bandwidth</li>
+                            <li class="list-group-item"><strong>10</strong> FTP account</li>
+                            <li class="list-group-item"><strong>Website</strong> integration</li>
+                            <li class="list-group-item"><strong>Advanced</strong> customisation</li>
+                            <li class="list-group-item"><strong>Call</strong> support</li>
+                        </ul>
+                        <div class="card-body">
+                            <button class="btn btn-outline-info btn-block">Sign-Up</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="card">
+                        <div class="card-header">Pro</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Unlimited</strong> profiles</li>
+                            <li class="list-group-item"><strong>$59</strong> /month</li>
+                            <li class="list-group-item"><strong>1TB</strong> storage</li>
+                            <li class="list-group-item"><strong>Unlimited</strong> bandwidth</li>
+                            <li class="list-group-item"><strong>100</strong> FTP account</li>
+                            <li class="list-group-item"><strong>Website</strong> integration</li>
+                            <li class="list-group-item"><strong>Advanced</strong> customisation</li>
+                            <li class="list-group-item"><strong>24/7</strong> support</li>
+                        </ul>
+                        <div class="card-body">
+                            <button class="btn btn-outline-info btn-block">Sign-Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end pricing -->
+
+    <!-- contanct -->
+    <section id="contact">
+        <div class="container text-center wow zoomIn" data-wow-duration="0.3s">
+            <div class="row">
+                <div class="col">
+                    <h2>Contact us</h2>
+                    <hr>
+                    <p>Need to get in touch? Fill in the form below for more information:</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <form>
+                        <feildset class="form-group">
+                            <input type="emai" id="email" class="form-control form-control-sm" placeholder="email...">
+                        </fieldset>
+                        <feildset class="form-group">
+                            <input type="text" id="name" class="form-control form-control-sm" placeholder="name...">
+                        </feildset>
+                        <feildset class="form-group">
+                            <input type="text" id="subject" class="form-control form-control-sm" placeholder="subject...">
+                        </feildset>
+                        <feildset class="form-group">
+                            <textarea name="message" id="message" rows="3" class="form-control form-control-sm"></textarea>
+                        </feildset>
+                        <button type="submit" class="btn btn-outline-info btn-block">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contanct -->
+
+    <!-- footer -->
+    
+    <section id="footer">
+        <div class="container wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.4s">
+            <div class="row">
+                <div class="col md-8 col-sm-6 mx-auto">
+                    <h3>About XL Techology</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper nisi nisi, 
+                        a vulputate magna tempus et. Class aptent taciti sociosqu ad litora torquent per 
+                        conubia nostra, per inceptos himenaeos. Nam eleifend neque sed efficitur malesuada
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fas fa-rss"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>Say hello: </h3>
+                    <ul class="list-unstyled">
+                        <li><p><strong><i class="fas fa-map-pin"></i> address:</strong> 555 N Main</p></li>
+                        <li><p><strong><i class="fas fa-envelope-open-text"></i> email:</strong> <a href="#"> myEmil@email.com</a></p></li>
+                        <li><p><strong><i class="fas fa-phone"></i> phone:</strong> 919-758-9973</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <p>&copy; 2019 designed by some-guy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <!-- end footer -->
+
+    <!-- font aweome -->
+    <script src="https://kit.fontawesome.com/b62eb596a8.js" crossorigin="anonymous"></script>
+    
     <!-- bootstrap cdn -->
     <script src="scripts/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- wow.js -->
+
+    <script src="scripts/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+
 </body>
 </html>
 
